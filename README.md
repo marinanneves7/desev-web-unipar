@@ -52,7 +52,7 @@ Blocos de Código
 
 ```java
 
-String nome = "Thales"
+String nome = "Marina Neves"
 
 ```
 
