@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*#container {
+    height: 100vh;
+}*/
+
+.relativo{
+    width: 200px;
+    height: 200px;
+    background: plum;
+    position: relative;
+    left: 40%;
+    z-index: 1;
+}
+
+.absoluto{
+    width: 200px;
+    height: 200px;
+    background: rgb(53, 0, 82);
+    position: absolute;
+    left: 40%;
+    top: 4%;    
+}
+
+.fixo{
+    width: 100px;
+    height: 100px;
+    background: rgb(242, 98, 255);
+    position: fixed;
+    left: 88%;
+    bottom: 10%;    
+}
