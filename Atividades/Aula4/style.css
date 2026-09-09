@@ -23,7 +23,10 @@
     background: rgb(53, 0, 82);
     position: absolute;
     left: 40%;
-    top: 4%;    
+    top: 46%;
+    border-radius: 50%;
+    display: flex;
+
 }
 
 .fixo{
@@ -33,4 +36,23 @@
     position: fixed;
     left: 88%;
     bottom: 10%;    
+}
+
+.block {
+    background-color: rgb(59, 0, 0);
+    height: 200px;
+}
+
+.inline {
+    background-color: peachpuff;
+    width: 200px;
+    height: 200px;
+}
+
+.texto h1 {
+    font-size: 32px;
+}
+
+.texto {
+    font-size: 2rem;
 }

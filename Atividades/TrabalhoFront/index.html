@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <h1>Marina's blog</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#artigo">Artigo</a></li>
+                <li><a href="#midia">Vídeo</a></li>
+                <li><a href="#comentarios">Comentários</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+
+        <article id="artigo" class="cartao">
+            <header>
+                <h2>Como Criar Dashboards Eficientes no Power BI</h2>
+                <p>Publicado por <strong>Marina Nunes</strong> em <time>07 de Setembro de 2026</time></p>
+            </header>
+
+            <section class="texto-artigo">
+                <p>
+                    A visualização de dados é uma das etapas mais cruciais no processo de análise de dados. 
+                    Um dashboard bem estruturado não serve apenas para mostrar métricas, mas para contar uma história clara e apoiar tomadas de decisão estratégicas.
+                </p>
+
+                <h3>1. Escolha as Cores e o Contraste Corretos</h3>
+                <p>
+                    Evite poluição visual usando paletas de cores neutras e destacando apenas as informações mais importantes com cores de acento.
+                </p>
+
+                <h3>2. Hierarquia Visual das Informações</h3>
+                <p>
+                    Posicione os indicadores principais (KPIs) na parte superior esquerda da tela, pois é onde os olhos costumam iniciar a leitura da página.
+                </p>
+            </section>
+
+            <section id="midia" class="bloco-video">
+                <h3>Vídeo Explicativo</h3>
+                <p>Confira abaixo uma introdução prática ao Power BI:</p>
+                <iframe 
+                    src="https://www.youtube.com/embed/ZIoOAsfKzVM" 
+                    title="Aprenda Power BI em 10 Minutos">
+                </iframe>
+            </section>
+        </article>
+
+        <section id="comentarios" class="cartao">
+            <h3>Deixe seu Comentário</h3>
+            <form action="#" method="POST" class="formulario">
+
+                <div class="campo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail para contato:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="avaliacao">Como você avalia este artigo?</label>
+                    <select id="avaliacao" name="avaliacao">
+                        <option value="5">Excelente</option>
+                        <option value="4">Muito Bom</option>
+                        <option value="3">Bom</option>
+                        <option value="2">Razoável</option>
+                        <option value="1">Ruim</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Seu Comentário:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+
+                <button type="submit">Enviar Comentário</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Blog - 2026.</p>
+    </footer>
+
+</body>
+</html>

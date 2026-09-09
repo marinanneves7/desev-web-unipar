@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: rgb(96, 1, 96);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.caixa {
+    width: 140px;
+    height: 140px;
+    background-color: rgb(124, 124, 245);
+    border: solid 6px black; 
+}
