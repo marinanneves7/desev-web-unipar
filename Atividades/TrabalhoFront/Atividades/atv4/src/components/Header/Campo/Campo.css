@@ -1,0 +1,25 @@
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.campo label {
+    font-weight: bold;
+    color: #3b0764;
+}
+
+.campo input, 
+.campo select, 
+.campo textarea {
+    padding: 0.5rem;
+    border: 1px solid #d8b4fe;
+    width: 100%;
+}
+
+button {
+    background-color: #7e22ce;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem;
+}

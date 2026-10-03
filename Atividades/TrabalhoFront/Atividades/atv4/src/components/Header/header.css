@@ -1,0 +1,19 @@
+.topo {
+    background-color: #2d124d;
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
